@@ -8,12 +8,244 @@
     <meta name="x-apple-disable-message-reformatting"> 
     <meta name="color-scheme" content="light dark"> 
     <meta name="supported-color-schemes" content="light dark"> 
-    <title>DoorDash</title>
-    <style>
-        #Stone-050 {
-            background-color:#eee7de;
+    <title>DoorDash</title> 
+    <!-- WEB FONTS --> 
+    <!--[if !mso]>--> 
+    <style type="text/css">
+        @font-face {
+            font-family:'TTNorms';
+            font-style:normal;
+            font-weight:800;
+            src:url('https://typography.doordash.com/TTNorms-Pro/TTNormsPro-ExtraBold.woff2')format('woff2');
         }
+        @font-face {
+            font-family:'NewSpirit';
+            font-style:normal;
+            font-weight:800;
+            src:url('https://typography.doordash.com/NewSpirit/NewSpirit.woff2')format('woff2');
+        }
+        @font-face {
+            font-family:'TTNorms';
+            font-style:normal;
+            font-weight:700;
+            src:url('https://typography.doordash.com/TTNorms-Pro/TTNormsPro-Bold.woff2')format('woff2');
+        }
+        @font-face {
+            font-family:'TTNorms';
+            font-style:normal;
+            font-weight:500;
+            src:url('https://typography.doordash.com/TTNorms-Pro/TTNormsPro-Medium.woff2')format('woff2');
+        }
+        @font-face {
+            font-family:'TTNorms';
+            font-style:normal;
+            font-weight:400;
+            src:url('https://typography.doordash.com/TTNorms-Pro/TTNormsPro-Regular.woff2')format('woff2');
+        }
+    </style> 
+    <!--<![endif]--> 
+    <!-- STYLE RESETS -->
+    <style type="text/css">
+    a[x-apple-data-detectors] {
+            color:inherit!important;
+            font-family:inherit!important;
+            font-size:inherit!important;
+            font-weight:inherit!important;
+            line-height:inherit!important;
+            text-decoration:none!important;
+    } 
+    body {
+            -ms-text-size-adjust:100%;
+            -webkit-font-smoothing:antialiased;
+            -webkit-text-size-adjust:100%;
+            mso-line-height-rule:exactly;
+    }  
+    html,body {
+            width:100%;
+            margin:0;
+            padding:0;
+    }
+    table {
+            border:0!important;
+            padding:0!important;
+            border-collapse:collapse!important;
+            mso-table-lspace:0;
+            mso-table-rspace:0;
+    }
+    span .MsoHyperlink {
+            color:inherit!important;
+            mso-style-priority:99!important;
+        }
+    span .MsoHyperlinkFollowed {
+        color:inherit!important;
+        mso-style-priority:99!important
+    }
     </style>
+    <!-- FONTS --> 
+    <style type="text/css">
+    body, #Main_Table {
+        background-color: #F4F4F4;
+    }
+    h1, h2 {
+        font-family:'TTNorms',Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',source-sans-pro,sans-serif;
+        font-weight:700;
+        margin:0 0 24px 0;
+    }
+    p,ol,ul {
+            font-family:'TTNorms',Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',source-sans-pro,sans-serif;
+            font-weight:400;
+            margin:0 0 24px 0;
+    }
+    li {
+        font-weight: 400;
+    }
+    h1 {
+            font-size:50px;
+            line-height:50px;
+            letter-spacing:-0.03em;
+    }
+    h2 {
+            font-size:40px;
+            line-height:40px;
+            letter-spacing:-0.02em;
+    }
+    p.para-rg {
+            font-size:16px;
+            line-height:22px;
+    }
+    p.para-md {
+            font-size:14px;
+            line-height:19px;
+    }
+    </style>
+    <!-- COLORS --> 
+    <style type="text/css">
+    #Basic-000 {
+        background-color: #feffff;
+    }
+    #Flush-100 {
+        background-color:#fff1e7;
+    }
+    #Stone-050 {
+        background-color:#eee7de;
+    }
+    #Main_Table td {
+        color:#00686e;
+    }
+    #Main_Table td a {
+        color:inherit;
+    }
+    .block {
+        display:block!important
+    }
+    .hide {
+        display:none!important;
+        min-height:0!important;
+        max-height:0!important;
+        max-width:0!important;
+        overflow:hidden!important;
+        font-size:0!important;
+    }
+    h1 {
+        font-size:40px!important;
+        line-height:40px!important;
+        letter-spacing:-0.02em!important;
+    }
+    </style>
+    <!-- CTAs --> 
+    <style type="text/css">
+    .button {
+        border-radius:30px;
+        }
+    .button a {
+        font-family:'TTNorms',Avenir,'Avenir Next LT Pro',Montserrat,Corbel,'URW Gothic',source-sans-pro,sans-serif;    
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        display: inline-block;
+        border-radius: 30px;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700!important;
+        padding: 12px 24px;
+        text-align: center;
+        text-decoration: none;
+        -webkit-text-size-adjust: none;
+    }
+    #Basic-000.button a {
+            border:1px solid #fff!important;
+            color:#0086c7!important;
+        }
+    h2 {
+        font-size:32px!important;
+        line-height:32px!important;
+        letter-spacing:-0.01em!important;
+    }
+    </style>
+    <!-- MOBILE STYLES --> 
+    <style type="text/css">
+    @media only screen and (max-width:699px) {
+        #Main_Table>table {
+            max-width:410px!important;
+        }
+    .full {
+            width:100%!important;
+            height:auto!important
+    }
+    .pad24 {
+            padding-left:24px!important;
+            padding-right:24px!important
+    } 
+    .pad0 {
+        padding:0!important
+    } 
+}  
+    </style>
+    <!-- DARK MODE STYLES -->
+    <style type="text/css">
+    @media(prefers-color-scheme:dark) {
+        body,#Main_Table {
+            background-color:#000!important;
+        }
+        table[id^="Basic"] {
+            background-color:#191919!important;
+            background-image:linear-gradient(#191919,#191919)!important;
+        }
+        table[id^="Stone"] {
+            background-color:#131313!important;
+            background-image:linear-gradient(#131313,#131313)!important;
+        }
+        table[id^="Flush"],table[id^="Red"],table[id^="LightPink"] {
+            background-color:#380e0a!important;
+            background-image:linear-gradient(#380e0a,#380e0a)!important;
+        }
+        table[id] td {
+            color:#00686e!important;
+        }
+    }    
+    </style>
+    <style type="text/css">
+    :root{
+        color-scheme:light dark;
+        supported-color-schemes:light dark;
+    }
+    </style> 
+     <!-- GMAIL APP DARK MODE FIX --> 
+        <!-- OUTLOOK SPECIFIC CSS --> 
+        <!--[if gte mso 9]>
+            <style type="text/css">
+                #Main_Table td a{
+                    color:#191919
+                }
+                ol,ul{
+                    margin-left:20px!important
+                }
+                li{
+                    text-indent:-1em
+                }
+        </style> 
+        <noscript> <xml> 
+        <o:OfficeDocumentSettings> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> </xml> </noscript>
+        <![endif]--> 
 </head>
 <body class="body" style="width:100%;margin:0;padding:0;">
     <span style="color:transparent;visibility:hidden;display:none;opacity:0;height:0;width:0;font-size:0;">Summer of DashPass savings start now!</span> 
@@ -165,7 +397,7 @@
                                                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%;">
                                                             <tr>
                                                                 <td align="center" style="padding: 0 0 24px 0;">
-                                                                    <a href=""https://doordash.com"" rel="noopener" target="_blank">
+                                                                    <a href="https://doordash.com" rel="noopener" target="_blank">
                                                                         <img alt="" src="https://d2axdqolvqmdvx.cloudfront.net/6d84b59d-1f0d-4b35-bd2b-4674a1b7ec00/Frame3118.png" style="width: 23px;" width="23">
                                                                     </a>
                                                                 </td>
@@ -254,13 +486,6 @@
                             </td> 
                         </tr>
                     </table>
-
-
-
-
-
-
-
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="full" role="presentation" style="width: 700px;">
                         <tr>
                             <td align="center" valign="top">
@@ -270,10 +495,6 @@
                                     <tr> 
                                         <td align="center">
                                 <![endif]--> 
-
-
-
-
                                 <table align="center" border="0" cellpadding="0" cellspacing="0" id="Footer" role="presentation" style="background-color:#F4F4F4;mso-table-lspace: 0; mso-table-rspace: 0; width: 100%; max-width: 700px; border: 0; padding: 0; border-collapse: collapse;" width="100%"> 
                                     <tr>
                                         <td align="center" style="color: #191919; padding: 0 24px;">
@@ -283,16 +504,11 @@
                                                         <a href="https://doordash.com" target="_blank" style="color: #191919;"><img alt="DoorDash" border="0" src="https://assets.doordash.team/m/60228540eee4df0c/original/DoorDash-Logo-Full-Red100.png" style="-ms-interpolation-mode: bicubic; border: 0; display: block; height: auto; line-height: 100%; outline: none; color: #FF3008; font-family:'TTNorms',system-ui,sans-serif; font-weight: bold; font-size: 18px; text-decoration: none;" width="183"></a> 
                                                     </td>
                                                 </tr>
-
-
                                                 <tr>
                                                     <td align="left" style="color: #191919; padding: 0 0 48px 0;">
                                                         <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0; width: 100%; border: 0; padding: 0; border-collapse: collapse;" width="100%">
                                                             <tr>
                                                                 <td align="left" style="color: #191919;">
-
-
-
                                                                     <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" style="mso-table-lspace: 0; mso-table-rspace: 0; width: 100%; max-width: 280px; border: 0; padding: 0; border-collapse: collapse; float: left;">
                                                                          <tr>
                                                                             <td align="left" valign="top" style="color: #191919; padding: 32px 0 0 0; width: 50%;" width="50%">
@@ -398,8 +614,6 @@
                                                         </table>
                                                     </td>
                                                 </tr>
-
-
                                                 <tr>
                                                     <td align="left" style="color: #191919; padding: 0 0 16px 0;">
                                                         <p style="font-family:'TTNorms',system-ui,sans-serif;font-size:14px;line-height:18px;font-weight:400;margin:0;color:#9A9A9A;">
@@ -419,8 +633,6 @@
                                                         </p> 
                                                     </td>
                                                 </tr>
-
-
                                                 <tr>
                                                     <td align="left" style="color: #191919; padding: 0 0 16px 0;">
                                                         <table align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0; mso-table-rspace: 0; border: 0; padding: 0; border-collapse: collapse;">
@@ -449,9 +661,6 @@
                                                         </table>
                                                     </td>
                                                 </tr>
-
-
-
                                                 <tr>
                                                     <td align="left" style="color: #191919; padding: 0 0 24px 0;">
                                                         <p style="font-family:'TTNorms',system-ui,sans-serif;font-size:14px;line-height:18px;font-weight:500;margin:0;color:#9A9A9A;"> 
@@ -469,39 +678,45 @@
                                                         </p>
                                                     </td>
                                                 </tr>
-
-
-
-
                                             </table>
                                         </td>
                                     </tr>
                                 </table>
-
-
-
-
+                                <!--[if (gte mso 9)|(IE)]>
+                                </td>
+                                </tr>
+                                </table>
+                                <![endif]--> 
                             </td>
                         </tr>
                     </table>
-
-
-
-
-
-
-
-
-
-
-
                     <table align="center" border="0" cellpadding="0" cellspacing="0" class="full" role="presentation" style="width: 700px;">
+                        <tr>
+                            <td align="left" class="pad24" style="padding: 0 64px 24px;"> 
+                                <p class="para-md" style="color: #9a9a9a;">
+                                    <span style="color: rgb(126, 140, 141);">1 DashPass Order Discount: To be eligible for this offer, you must be registered for DashPass and must enter code CHASE10 at checkout between &zwnj;06/15/&zwnj;2023 12&zwnj;:00 a.&zwnj;m. P.T.. &nbsp;and &zwnj;07&zwnj;/19/20&zwnj;23 11:&zwnj;59 p.m. P&zwnj;.T. The 10% off discount will be applied to the subtotal of your next order that meets the minimum subtotal requirement listed on DoorDash(excluding alcohol, taxes, and fees) for that participating merchant, up to a maximum $5 discount per order. Fees (including service fee), taxes, and tip still apply; discount does not apply to fees, taxes, or tip and discount cannot be applied to gift card purchases.You must use your Chase Sapphire Preferred card for payment at checkout to receive the discount. The discount is available for use through &zwnj;07/&zwnj;19/20&zwnj;23. Full offer terms and conditions 
+                                        <a href="https://help.doordash.com/consumers/s/article/offer-terms-conditions?language=en_US" style="color: rgb(126, 140, 141);">here</a>
+                                        .
+                                    </span>
+                                    <br>
+                                    <br>
+                                    <span style="color: rgb(126, 140, 141);">
+                                        2 Estimated savings are based on average savings for DashPass members and do not include the subscription fees members pay.
+                                    </span>
+                                    <br>
+                                    <br>
+                                    <span style="color: rgb(126, 140, 141);">
+                                        All deliveries subject to availability. Must have or create a valid DoorDash account. Qualifying orders containing alcohol will be charged a $0.01 Delivery Fee. No cash value. Non-transferable. See full terms and conditions 
+                                        <a href="https://help.doordash.com/legal/document?type=cx-terms-and-conditions&region=US&locale=en-US" style="color: rgb(126, 140, 141);">here</a>
+                                        .&nbsp;
+                                    </span>
+                                </p>
+                            </td>
+                        </tr>
                     </table> 
-
                 </td>
             </tr>
         </table>    
     </div>
-    
 </body>
 </html>
